@@ -1,17 +1,18 @@
 import React from 'react'
 
+
 function Carousel() {
   return (
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="logo192.png" className="d-block w-50" alt="..." / >
+        <img src="demo.jpg" className="d-block w-100" alt="..." / >
       </div>
       <div className="carousel-item">
-        <img src=".logo512.png" className="d-block w-50" alt="..." />
+        <img src="sample.jpg" className="d-block w-100" alt="..." />
       </div>
       <div className="carousel-item">
-        <img src="logo192.png" className="d-block w-50" alt="..." />
+        <img src="sample.jpg" className="d-block w-100" alt="..." />
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
